@@ -1,0 +1,18 @@
+There are two ways to push.
+
+1.In the git hub, click add file => upload file.In the coming window, it shows to drag and drop.Minimise the window, drag the file from the system and drop in the github.
+
+2.Using gitbash, to push, first we have to clone the remote repository to the local system.
+ > git clone ' url '
+
+ then, that repository will be seen the computer.Copy the file to be uploaded into the new local repository.
+ Change the directory to the local repository with the command => cd name
+
+ Now we have to stage the file.
+ => git add .
+
+ Then commit
+ => git commit -m 'message'
+
+ Then push
+ => git push origin main   // The branch can be depending upon the branch selected in the github [master or main]
